@@ -1,2 +1,32 @@
 # MMM-chromecast
-MagicMirror Module to cast from server to chromecast
+MagicMirror<sup>2</sup> Module to cast from server to chromecast. This module enables the chromcast to load the content directly from the server, i.e., it does not mirror the browser tab. 
+
+## Dependencies
+  * An installation of [MagicMirror<sup>2</sup>](https://github.com/
+MichMich/MagicMirror)
+  * A browser supporting casting to chromecast (i.e. Google Chrome) to initially start the cast
+  * A chromecast (or similar device supporting the Google Cast API v3)
+
+## Installation
+1. Clone this repo into `~/MagicMirror/modules` directory.
+ 2. Configure your `~/MagicMirror/config/config.js`:
+
+    ```
+    {
+        module: "MMM-chromecast",
+        position: "top_right",
+    }
+    ```
+
+    Note: the position does not matter, the module does not show any content
+
+## Config Options and Usage
+There are no options required. Just start casting within your browser and chromecast will load the MagicMirror website. The casting only needs to be started once, the browser is not required afterwards. 
+
+Important remarks:
+ * Chromecast will use the same url as is opened in your browser when starting to cast.
+ * If you change your MagicMirror configuration or setup, you will have to stop casting and restart casting (no automatic refresh).
+
+
+## Notes and References
+The receiver and casting code is adapted from [url-cast-receiver](https://github.com/DeMille/url-cast-receiver).
