@@ -2,8 +2,7 @@
 MagicMirror<sup>2</sup> Module to cast from server to chromecast. This module enables the chromcast to load the content directly from the server, i.e., it does not mirror the browser tab. 
 
 ## Dependencies
-  * An installation of [MagicMirror2](https://github.com/
-MichMich/MagicMirror)
+  * An installation of [MagicMirror2](https://github.com/MichMich/MagicMirror)
   * A browser supporting casting to chromecast (i.e. Google Chrome) to initially start the cast
   * A chromecast (or similar device supporting the Google Cast API v3)
 
