@@ -22,9 +22,9 @@ MagicMirror<sup>2</sup> Module to cast from server to chromecast. This module en
 ## Config Options and Usage
 There are no options required. 
 
-To display the MagicMirror on a chromecast, just open the [MagicMirror server][https://github.com/MichMich/MagicMirror#server-only] in your Google Chrome browser (e.g. https://localhost:8080) and start casting. The chromecast will load the MagicMirror website. The casting only needs to be started once, the browser is not required afterwards. 
+To display the MagicMirror on a chromecast, just open the [MagicMirror server](https://github.com/MichMich/MagicMirror#server-only) in your Google Chrome browser (e.g. https://localhost:8080) and start casting. The chromecast will load the MagicMirror website. The casting only needs to be started once, the browser is not required afterwards. 
 
-For further instructions on how to start casting see [Google's FAQ][https://support.google.com/chromecast/answer/3228332?hl=en&ref_topic=4602553]. 
+For further instructions on how to start casting see [Google's FAQ](https://support.google.com/chromecast/answer/3228332?hl=en&ref_topic=4602553). 
 
 Important remarks:
  * Chromecast will use the same url as is currently open in your browser when starting to cast.
