@@ -79,3 +79,20 @@ function sendMessage(msg) {
     }
 }
 
+
+function notify(msg) {
+    var el = document.getElementById('notifications'),
+        notice = document.createElement('div');
+
+    if (el == null) return;
+
+    notice.className = 'notification';
+    notice.innerHTML = msg;
+
+    el.appendChild(notice);
+
+    // notice self destruct timer
+    setTimeout(function () {
+        el.removeChild(notice);
+    }, 5000);
+}
