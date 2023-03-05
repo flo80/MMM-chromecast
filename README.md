@@ -1,3 +1,8 @@
+**NOTE** *This module does not work anymore, due to changes in browser's security framework (https connections needed) and changes in the Google API (which MM does not support easily).*
+
+
+
+
 # MMM-chromecast
 MagicMirror<sup>2</sup> Module to cast from server to chromecast. This module enables the chromcast to load the content directly from the server, i.e., it does not mirror the browser tab. 
 
